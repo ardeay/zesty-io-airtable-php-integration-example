@@ -64,7 +64,7 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadTarget)) {
 	$data_for_entry = array (
 		'fields' => array (
 			'Name' => $_POST['name'],
-			'Resume' => $download_domain.'/'.$uploadTarget
+			'Userfile' => $download_domain.'/'.$uploadTarget
 		)
 	);
 	

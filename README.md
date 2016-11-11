@@ -12,14 +12,14 @@ By using php on a heroku server, Zesty.io can post a form with a file payload to
 	<input type="hidden" name="MAX_FILE_SIZE" value="30000" />
 
 	<br>
-	<input type="text" name="name" value="" />
+	<input type="text" name="Name" value="" />
 	
 	<!-- RETURN_URL must precede the file input field, used after file is uploaded -->
 	<input type="hidden" name="redirect_target" value="http://www.example.com/" />
 	
 	
 	<!-- Name of input element determines name in $_FILES array -->
-	<label>Send this file: <input name="resume" type="file" /></label>
+	<label>Send this file: <input name="Userfile" type="file" /></label>
 	<br>
 	<input type="submit" value="Send File" />
 </form>		
