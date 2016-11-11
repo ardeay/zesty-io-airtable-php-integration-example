@@ -25,4 +25,4 @@ By using php on a heroku server, Zesty.io can post a form with a file payload to
 </form>		
 ```
 
-This will post to an Airtable with a name, and single file
+This will post to an Airtable with a name, and single file. To see the full documentation on how to implements this on Zesty.io, visit [https://developer.zesty.io/docs/connecting-data/airtable-php-integration/](https://developer.zesty.io/docs/connecting-data/airtable-php-integration/)
