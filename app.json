@@ -13,10 +13,6 @@
         }
     ],
     "env": {
-        "MAX_FILE_SIZE": {
-            "description": "Max file size to allow (in MB)",
-            "value": "15"
-        },
         "AIRTABLE_TABLE_ID": {
             "description": "Air Table ID",
             "value": ""
@@ -26,7 +22,7 @@
             "value": ""
         },
         "AIRTABLE_API_VERSION": {
-            "description": "Airtable API Version",
+            "description": "Airtable API Version, leaving it v0 should be fine.",
             "value": "v0"
         },
 		"AIRTABLE_NAME": {
